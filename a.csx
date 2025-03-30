@@ -2382,14 +2382,3 @@ public class ExportToGMS2Project
 // Create an instance and call Run.
 
 // Example of how UMT might initiate (this part is usually handled by UMT itself):
-/*
-ExportToGMS2Project exporter = new ExportToGMS2Project();
-await exporter.Run(
-    Data,               // UndertaleData object provided by UMT
-    FilePath,           // FilePath string provided by UMT
-    ShowProgressBar,    // Delegate provided by UMT
-    HideProgressBar,    // Delegate provided by UMT
-    ScriptMessage,      // Delegate provided by UMT
-    ScriptError,        // Delegate provided by UMT
-    UpdateProgressBar   // Delegate provided by UMT
-);
